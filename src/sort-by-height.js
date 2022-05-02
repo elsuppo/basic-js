@@ -23,7 +23,7 @@ function sortByHeight(arr) {
       result.push(element)
     } else {
       result.push(newArray[indexNewArray])
-      i++
+      indexNewArray++
     }
   })
 
